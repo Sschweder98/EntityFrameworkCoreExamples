@@ -8,10 +8,12 @@ ________________________________________________________________________________
 NuGet Packages needed:
 
 Microsoft.EntityFrameworkCore -> Basic Package for EF Core, installs some other Packages that it needs to work
+
 Microsoft.EntityFrameworkCore.Tools -> Is required for the actions within the Package Manager Console like add migration etc.
+
 Pomelo.EntityFrameworkCore.MySql -> Database provider for MySQL (not required when using MSSQL)
 
-Important: Make sure that the Versions of these NuGet Packages are compatible to each other
+<b>Important:</b> Make sure that the Versions of these NuGet Packages are compatible to each other
 <br><br><br>
 Basic commands for the Package Manager Console:
 
