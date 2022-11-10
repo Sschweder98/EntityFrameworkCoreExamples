@@ -60,7 +60,6 @@ namespace EF_Core_Basics
                 _HotelContext.Bookings.Remove(Entry1);
             }
             _HotelContext.SaveChanges();
-
         }
 
         static void GetEntries()
@@ -69,9 +68,6 @@ namespace EF_Core_Basics
                 Console.WriteLine(String.Format("Der Kunde {0} hat am {1} das Zimmer {2} gebucht", booking.Customer_Name, booking.BookingDate.Date, booking.RoomNumber));
             }
         }
-
-
-
     }
 }
 
@@ -86,7 +82,6 @@ public class HotelContext : DbContext
     }
 
     public class HotelBooking { 
-    
         public int Id { get; set; }
         public string? Customer_Name { get; set; }
         public string? EmailAdress { get; set; }
@@ -94,6 +89,5 @@ public class HotelContext : DbContext
         public Boolean IsPaymentRecieved { get; set; }
         public int RoomNumber { get; set; }
         public int BookingNumber { get; set; }
-
     }
 }
