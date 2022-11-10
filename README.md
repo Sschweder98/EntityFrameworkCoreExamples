@@ -38,3 +38,11 @@ Ef_Core_Scaffolding
 -> Usually EF Core is "Code First", to do "Database First" you need something called Scaffolding. 
 
 -> What it does, is taking existing databases/tables and genearating the files like migrations etc. we need for using them with EF Core 
+
+
+
+EF_Core_InMemory
+
+-> Using EF Core without an actual Database, all is stored on the Computers Memory
+
+-> Maybe useful for Testing? :) 
