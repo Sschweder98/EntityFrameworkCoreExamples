@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\EF_Core_Basics",
+    "\\EF_Core_Basics\\EF_Core_Basics"
+  ],
+  "SelectedNode": "\\EF_Core_Basics\\EF_Core_Basics\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
