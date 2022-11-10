@@ -34,18 +34,11 @@ namespace EF_Core_Scaffolding.ef_core_examples_database
 
             modelBuilder.Entity<Sale>(entity =>
             {
-                entity.HasNoKey();
-
                 entity.ToTable("sales");
-
-                entity.HasIndex(e => e.Id, "Id")
-                    .IsUnique();
 
                 entity.Property(e => e.CostumerName)
                     .HasMaxLength(50)
                     .HasColumnName("Costumer_Name");
-
-                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.IsDelivered).HasColumnName("isDelivered");
 
