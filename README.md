@@ -1,6 +1,7 @@
 # EntityFrameworkCoreExamples
 
 This repository is just for me to learn and play around with the functionalities of Entity Framework (Core)
+
 All Examples are done with MySQL instead of MSSQL
 _________________________________________________________________________________________________________________________________________________________
 
